@@ -39,3 +39,34 @@ if (curHr < 12) {
 } else {
     document.querySelector('#placeToSee').innerText = ('GOOD EVENING')
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+	const form = document.getElementById('contact-form');
+	const confirmationMessage = document.getElementById('confirmationMessage');
+  
+	if (form) {
+	  form.addEventListener('submit', async (e) => {
+		e.preventDefault(); // Prevent default form submission
+		const formData = new FormData(form);
+  
+		try {
+		  const response = await fetch(form.action, {
+			method: form.method,
+			body: formData,
+			headers: {
+			  'Accept': 'application/json'
+			}
+		  });
+  
+		  if (response.ok) {
+			form.reset();
+			confirmationMessage.style.display = 'block';
+		  } else {
+			alert('Oops! There was a problem submitting your form.');
+		  }
+		} catch (error) {
+		  alert('Error: ' + error.message);
+		}
+	  });
+	}
+  });
