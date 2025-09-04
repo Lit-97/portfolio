@@ -1,6 +1,6 @@
-# Salon Luxe – Next.js Project
+# Personal Portfolio Website
 
-This project is a modern redesign of the Salon Luxe website, created to showcase my growth as a web developer. The original Salon Luxe site was my first website project. With this new version, I wanted to highlight my improved skills and create a fully interactive, visually appealing site.
+This project is my personal portfolio website, designed to showcase my skills, projects, and services as a software engineer. Built using HTML, CSS, and JavaScript, the site serves as a digital business card and a platform to connect with potential clients and collaborators.
 
 ## Table of contents
 
@@ -14,80 +14,62 @@ This project is a modern redesign of the Salon Luxe website, created to showcase
 
 
 ## Overview
-Salon Luxe is a professional website for a luxury hair salon. I rebuilt this site to demonstrate my growth as a developer and to incorporate advanced features like authentication and an AI chatbot.
+Litney Pollard-Hinton's portfolio website is a clean, responsive, and accessible platform designed to highlight my professional journey, technical skills, and personal projects.
 
 Key features include:
 
-• Hero section with video background 🎥
+- Home: An introduction and overview of my services.
 
-• Google Sign-In Authentication 🔑
+- About Me: A brief background and my journey into software engineering.
 
-• AI-powered Chatbot integration 🤖
+- My Work: Showcases of projects like Golden Hour Café, Salon Luxe, and Ronnie's Q.
 
-• Booking forms 🗓️
-
-• Product & service showcase pages
-
-• Animations and smooth transitions with Framer Motion
+- Contact: A form to reach out for inquiries or collaborations.
 
 
 ### Screenshot
 
-![Screenshot of Salon Luxe](./public/scofsite.jpg)
+![Screenshot of Salon Luxe](./images/portfolio.jpg)
 
 
 ### Links
 
-- New Site URL: [Salon Luxe (NEW)](https://salonluxelit.vercel.app/)
-- Old Site URL: [Salon Luxe (OLD)](https://lit-97.github.io/hair-salon-website/)
+- Live Site URL: [Portfolio](https://lit-97.github.io/portfolio/)
 
 
 ## My process
-I started by planning the site structure and designing reusable components for pages like About, Contact, and Products. Then I:
+I began by selecting a clean and modern template from HTML5 UP. Then I:
 
-1. Set up a Next.js project with TypeScript.
+1. Customized the template to reflect my personal brand and style.
 
-2. Built reusable React components for sections, cards, buttons, and forms.
+2. Integrated sections to showcase my skills, projects, and services.
 
-3. Integrated Firebase for authentication and data management.
+3. Ensured the website is fully responsive and accessible across devices.
 
-4. Added AI chatbot functionality for user interaction.
+4. Added interactive elements using JavaScript to enhance user experience.
 
-5. Optimized images and video backgrounds for a polished visual experience.
-
-6. Deployed the site to Vercel for production-ready hosting.
+5. Deployed the site using GitHub Pages for easy access and sharing.
 
 
 ### Built with
 
-- Next.js
+- HTML5
 
-- TypeScript
+- CSS3
 
-- CSS Modules & Framer Motion (animations)
+- JavaScript
 
-- Firebase (Authentication & Firestore)
-
-- Vercel (Deployment & Hosting)
-
-- AI Chatbot integration 🤖
-
-- High-quality media assets (optimized images & video)
+- GitHub Pages (Hosting)
 
 ### Growth & Insights 🌱
 
-- Structuring a complex Next.js project with multiple pages and reusable components
+- Customizing and deploying a static website using GitHub Pages.
 
-- Implementing Google Sign-In authentication with Firebase
+- Implementing responsive design principles for mobile-friendly layouts.
 
-- Integrating an AI-powered chatbot for real-time user engagement
+- Enhancing user experience with interactive JavaScript elements.
 
-- Optimizing video and image assets for web performance
-
-- Using Framer Motion to enhance UI with animations and smooth transitions
-
-- Managing a production deployment on Vercel
-
+- Showcasing personal projects and services effectively.
 
 ## Author
 
