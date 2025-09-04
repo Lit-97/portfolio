@@ -29,7 +29,7 @@ Key features include:
 
 ### Screenshot
 
-![Screenshot of Salon Luxe](./images/portfolio.jpg)
+![Screenshot of Portfolio](./images/portfolio.jpg)
 
 
 ### Links
